@@ -170,13 +170,11 @@ dependencies = [
 
 [[package]]
 name = "async-compat"
-version = "0.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9b48b4ff0c2026db683dea961cd8ea874737f56cffca86fa84415eaddc51c00d"
+version = "0.2.5"
+source = "git+https://github.com/holdxen/async-compat.git?rev=c115cc5dba3535c8485b8eb3919c892beac0d657#c115cc5dba3535c8485b8eb3919c892beac0d657"
 dependencies = [
  "futures-core",
  "futures-io",
- "once_cell",
  "pin-project-lite",
  "tokio",
 ]

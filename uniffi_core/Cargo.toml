@@ -13,7 +13,8 @@ readme = "../README.md"
 [dependencies]
 # Re-exported dependencies used in generated Rust scaffolding files.
 anyhow = "1"
-async-compat = { version = "0.2.1", optional = true }
+# async-compat = { version = "0.2.1", optional = true }
+async-compat = { git = "https://github.com/holdxen/async-compat.git", rev = "c115cc5dba3535c8485b8eb3919c892beac0d657", optional = true }
 bytes = "1.11"
 once_cell = "1.10.0"
 static_assertions = "1.1.0"
